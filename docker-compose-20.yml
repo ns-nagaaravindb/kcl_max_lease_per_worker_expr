@@ -1,0 +1,53 @@
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: localstack-mohan-experiment
+    ports:
+      - "4566:4566"  # LocalStack gateway
+      - "4571:4571"  # Kinesis (legacy port)
+    environment:
+      - SERVICES=kinesis,dynamodb
+      - DEBUG=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - KINESIS_PROVIDER=kinesis-mock
+      - KINESIS_MOCK_SHARD_LIMIT=500
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+      # Increase memory for handling shards
+      - JAVA_OPTS=-Xmx2g
+    volumes:
+      - "localstack-data:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./scripts/init-20-shards.sh:/etc/localstack/init/ready.d/init-kinesis.sh"
+    networks:
+      - kinesis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4566/_localstack/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  dynamodb-admin:
+    image: aaronshaf/dynamodb-admin
+    container_name: dynamodb-admin-mohan
+    ports:
+      - "8001:8001"
+    environment:
+      - DYNAMO_ENDPOINT=http://localstack:4566
+      - AWS_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+    depends_on:
+      - localstack
+    networks:
+      - kinesis-network
+
+volumes:
+  localstack-data:
+
+networks:
+  kinesis-network:
+    driver: bridge
+

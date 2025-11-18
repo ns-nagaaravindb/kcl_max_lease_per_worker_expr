@@ -1,0 +1,19 @@
+aws:
+  region: us-east-1
+  endpoint: http://localhost:4566
+  access_key: test
+  secret_key: test
+
+kinesis:
+  stream_name: mohan-experiment-stream
+
+producer:
+  # Number of messages to send per batch
+  batch_size: 50
+  # Delay between batches in milliseconds
+  batch_delay_ms: 100
+  # Total messages to send (0 for infinite)
+  total_messages: 0
+  # Number of shards (used for partition key distribution)
+  num_shards: 20
+

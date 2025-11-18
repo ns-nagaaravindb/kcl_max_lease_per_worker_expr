@@ -1,0 +1,537 @@
+{
+    "Items": [
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:13:02Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000022"
+            },
+            "Checkpoint": {
+                "S": "49669060179997557862732903416120523864830380254024434018"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000001"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:51Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000016"
+            },
+            "Checkpoint": {
+                "S": "49669060012518961421767923621360592723803481142166814978"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:55:25Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000002"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:09:03Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000025"
+            },
+            "Checkpoint": {
+                "S": "49669060180064460098328495283688220960720237815043981714"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000002"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:53Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000003"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:07:33Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000033"
+            },
+            "Checkpoint": {
+                "S": "49669060179886054136740250294469765944241604175050310162"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000006"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:08:12Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000034"
+            },
+            "Checkpoint": {
+                "S": "49669060179908354881938780917718896060459954189507756578"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000007"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:59Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000001"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:47Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000014"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:44Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000009"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:25Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000030"
+            },
+            "Checkpoint": {
+                "S": "49669060180175963824321148396452165181321875174350389730"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000005"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:55:29Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000007"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:40Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000021"
+            },
+            "Checkpoint": {
+                "S": "49669060179975257117534372788161418755393434768753295698"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000000"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:13:02Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000020"
+            },
+            "Checkpoint": {
+                "S": "49669060179952956372335842165039225850234620336603660610"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000000"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:27Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000038"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000009"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:43Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000031"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000005"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:33Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000011"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:55:17Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000008"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:55:21Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000006"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:08:54Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000017"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:29Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000000"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:27Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000039"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000009"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:13:22Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000037"
+            },
+            "Checkpoint": {
+                "S": "49669060179975257117534372793331994485885203611532657234"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000008"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:17Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000035"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000007"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:17Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000018"
+            },
+            "Checkpoint": {
+                "S": "49669060012563562912164984867471996693963500041334161698"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:27Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000024"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000002"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:41Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000004"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:13:14Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000029"
+            },
+            "Checkpoint": {
+                "S": "49669060180153663079122617773111156702812812655420506578"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000004"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:37Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000036"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000008"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:50Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000012"
+            },
+            "Checkpoint": {
+                "S": "49669060012786570364150291098938128761113798219170578626"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:08:31Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000026"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000003"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T17:54:08Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000005"
+            },
+            "Checkpoint": {
+                "S": "SHARD_END"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:47Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000013"
+            },
+            "Checkpoint": {
+                "S": "49669060012808871109348821722377060231011645220215324882"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:07:48Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000019"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:37Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000032"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000006"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:37Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000027"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000003"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-2"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:11:53Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000023"
+            },
+            "Checkpoint": {
+                "S": "49669060180019858607931434034485593669805628677546836338"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000001"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-3"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:27Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000010"
+            },
+            "Checkpoint": {
+                "S": "49669060012741968873753229860658146250417346495274549410"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-6"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:12:00Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000015"
+            },
+            "Checkpoint": {
+                "S": "49669060012853472599745882968467912462238216041887957234"
+            }
+        },
+        {
+            "AssignedTo": {
+                "S": "consumer-pod-5"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-17T18:13:11Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000028"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000004"
+            }
+        }
+    ],
+    "Count": 40,
+    "ScannedCount": 40,
+    "ConsumedCapacity": null
+}

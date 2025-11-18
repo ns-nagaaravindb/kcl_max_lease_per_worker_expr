@@ -1,0 +1,37 @@
+aws:
+  region: us-east-1
+  endpoint: http://localhost:4566
+  access_key: test
+  secret_key: test
+
+kinesis:
+  stream_name: mohan-experiment-stream
+
+consumer:
+  application_name: mohan-kcl-consumer
+  worker_id: consumer-pod-7
+  
+  # ===== RECORD PROCESSING CONFIGURATION =====
+  max_records: 100
+  call_process_records_even_for_empty_list: true
+  idle_time_between_reads_in_millis: 10000
+  
+  # ===== LEASE CONFIGURATION =====
+  enable_lease_stealing: true
+  # After scaling to 5 pods: 30 shards / 5 pods = 6 leases per worker
+  # MaxLeasesForWorker = min(10, 30/5) = 6
+  max_leases_for_worker: 6
+  max_leases_to_steal_at_one_time: 1
+  shard_sync_interval_millis: 30000
+  lease_stealing_interval_millis: 30000
+  failover_time_millis: 120000
+  lease_refresh_wait_time_millis: 90000
+  
+  # ===== CHECKPOINT CONFIGURATION =====
+  checkpoint_frequency_count: 10
+  checkpoint_frequency_millis: 1000
+  
+  # ===== PARENT/CHILD SHARD PROCESSING =====
+  process_parent_shard_before_children: false
+  total_num_pods: 5
+
