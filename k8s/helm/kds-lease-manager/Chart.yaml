@@ -1,0 +1,14 @@
+apiVersion: v2
+name: kds-lease-manager
+description: A Helm chart for KDS Lease Manager test environment with LocalStack
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - kinesis
+  - dynamodb
+  - localstack
+  - lease-manager
+maintainers:
+  - name: KDS Team
+

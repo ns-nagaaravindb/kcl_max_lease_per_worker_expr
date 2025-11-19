@@ -1,0 +1,73 @@
+{{- if .Values.localstack.enabled -}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: localstack
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+    app: localstack
+spec:
+  type: {{ .Values.localstack.service.type }}
+  ports:
+    - name: kinesis
+      port: {{ .Values.localstack.service.port }}
+      targetPort: 4566
+      {{- if eq .Values.localstack.service.type "NodePort" }}
+      nodePort: {{ .Values.localstack.service.nodePort }}
+      {{- end }}
+  selector:
+    app: localstack
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: localstack
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+    app: localstack
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: localstack
+  template:
+    metadata:
+      labels:
+        app: localstack
+    spec:
+      containers:
+      - name: localstack
+        image: "{{ .Values.localstack.image.repository }}:{{ .Values.localstack.image.tag }}"
+        imagePullPolicy: {{ .Values.localstack.image.pullPolicy }}
+        ports:
+        - containerPort: 4566
+        env:
+        - name: SERVICES
+          value: "kinesis,dynamodb"
+        - name: DEBUG
+          value: "1"
+        - name: DATA_DIR
+          value: "/var/lib/localstack"
+        - name: KINESIS_PROVIDER
+          value: "kinesalite"
+        - name: PERSISTENCE
+          value: "1"
+        volumeMounts:
+        - name: localstack-data
+          mountPath: /var/lib/localstack
+        resources:
+          {{- toYaml .Values.localstack.resources | nindent 10 }}
+        readinessProbe:
+          httpGet:
+            path: /_localstack/health
+            port: 4566
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+      volumes:
+      - name: localstack-data
+        emptyDir: {}
+{{- end }}
+

@@ -1,0 +1,105 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "kds-lease-manager.fullname" . }}
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+spec:
+  clusterIP: None
+  selector:
+    {{- include "kds-lease-manager.selectorLabels" . | nindent 4 }}
+    app: kds-consumer
+  ports:
+  - port: 8080
+    name: metrics
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: kds-consumer
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+    app: kds-consumer
+spec:
+  serviceName: {{ include "kds-lease-manager.fullname" . }}
+  replicas: {{ .Values.consumer.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "kds-lease-manager.selectorLabels" . | nindent 6 }}
+      app: kds-consumer
+  template:
+    metadata:
+      labels:
+        {{- include "kds-lease-manager.selectorLabels" . | nindent 8 }}
+        app: kds-consumer
+    spec:
+      serviceAccountName: {{ include "kds-lease-manager.serviceAccountName" . }}
+      containers:
+      - name: consumer
+        image: "{{ .Values.consumer.image.repository }}:{{ .Values.consumer.image.tag }}"
+        imagePullPolicy: {{ .Values.consumer.image.pullPolicy }}
+        env:
+        - name: AWS_REGION
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: AWS_REGION
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: AWS_SECRET_ACCESS_KEY
+        - name: AWS_ENDPOINT_URL
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: AWS_ENDPOINT_URL
+        - name: STREAM_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: STREAM_NAME
+        - name: APP_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: APP_NAME
+        - name: ENABLE_DYNAMIC_MAX_LEASES
+          valueFrom:
+            configMapKeyRef:
+              name: {{ include "kds-lease-manager.fullname" . }}-config
+              key: ENABLE_DYNAMIC_MAX_LEASES
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        resources:
+          {{- toYaml .Values.consumer.resources | nindent 10 }}
+        {{- if .Values.consumer.livenessProbe.enabled }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.consumer.livenessProbe.httpGet.path }}
+            port: {{ .Values.consumer.livenessProbe.httpGet.port }}
+          initialDelaySeconds: {{ .Values.consumer.livenessProbe.initialDelaySeconds }}
+          periodSeconds: {{ .Values.consumer.livenessProbe.periodSeconds }}
+        {{- end }}
+        {{- if .Values.consumer.readinessProbe.enabled }}
+        readinessProbe:
+          httpGet:
+            path: {{ .Values.consumer.readinessProbe.httpGet.path }}
+            port: {{ .Values.consumer.readinessProbe.httpGet.port }}
+          initialDelaySeconds: {{ .Values.consumer.readinessProbe.initialDelaySeconds }}
+          periodSeconds: {{ .Values.consumer.readinessProbe.periodSeconds }}
+        {{- end }}
+

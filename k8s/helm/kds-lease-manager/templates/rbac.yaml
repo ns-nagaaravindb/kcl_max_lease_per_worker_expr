@@ -1,0 +1,41 @@
+{{- if .Values.rbac.create -}}
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: {{ include "kds-lease-manager.serviceAccountName" . }}
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: {{ include "kds-lease-manager.fullname" . }}-role
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list"]
+- apiGroups: ["apps"]
+  resources: ["statefulsets", "replicasets", "deployments"]
+  verbs: ["get", "list"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: {{ include "kds-lease-manager.fullname" . }}-rolebinding
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+subjects:
+- kind: ServiceAccount
+  name: {{ include "kds-lease-manager.serviceAccountName" . }}
+  namespace: {{ .Values.namespace }}
+roleRef:
+  kind: Role
+  name: {{ include "kds-lease-manager.fullname" . }}-role
+  apiGroup: rbac.authorization.k8s.io
+{{- end }}
+

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "kds-lease-manager.fullname" . }}-config
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "kds-lease-manager.labels" . | nindent 4 }}
+data:
+  AWS_REGION: {{ .Values.consumer.aws.region | quote }}
+  AWS_ACCESS_KEY_ID: {{ .Values.consumer.aws.accessKeyId | quote }}
+  AWS_SECRET_ACCESS_KEY: {{ .Values.consumer.aws.secretAccessKey | quote }}
+  AWS_ENDPOINT_URL: {{ .Values.consumer.aws.endpointUrl | quote }}
+  STREAM_NAME: {{ .Values.consumer.stream.name | quote }}
+  APP_NAME: {{ .Values.consumer.app.name | quote }}
+  SHARD_COUNT: {{ .Values.consumer.stream.initialShardCount | quote }}
+  ENABLE_DYNAMIC_MAX_LEASES: {{ .Values.consumer.app.enableDynamicMaxLeases | quote }}
+

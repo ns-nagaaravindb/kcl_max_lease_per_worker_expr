@@ -17,14 +17,15 @@ consumer:
   idle_time_between_reads_in_millis: 10000
   
   # ===== LEASE CONFIGURATION =====
-  enable_lease_stealing: true
+  #enable_lease_stealing: true
+  enable_lease_stealing: false
   # After scaling to 5 pods: 30 shards / 5 pods = 6 leases per worker
   # MaxLeasesForWorker = min(10, 30/5) = 6
   max_leases_for_worker: 6
   max_leases_to_steal_at_one_time: 1
   shard_sync_interval_millis: 30000
   lease_stealing_interval_millis: 30000
-  failover_time_millis: 120000
+  failover_time_millis: 1200000
   lease_refresh_wait_time_millis: 90000
   
   # ===== CHECKPOINT CONFIGURATION =====

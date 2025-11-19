@@ -1,0 +1,89 @@
+# Default values for kds-lease-manager
+
+# Namespace configuration
+namespace: kds-test
+
+# LocalStack configuration
+localstack:
+  enabled: true
+  image:
+    repository: localstack/localstack
+    tag: "3.0"
+    pullPolicy: IfNotPresent
+  service:
+    type: NodePort
+    port: 4566
+    nodePort: 30566
+  resources:
+    requests:
+      memory: "512Mi"
+      cpu: "250m"
+    limits:
+      memory: "1Gi"
+      cpu: "500m"
+
+# KDS Consumer configuration
+consumer:
+  replicaCount: 3
+  image:
+    repository: kds-consumer-test
+    tag: latest
+    pullPolicy: Never  # For local Minikube builds
+  
+  # AWS Configuration
+  aws:
+    region: us-east-1
+    accessKeyId: test
+    secretAccessKey: test
+    endpointUrl: http://localstack:4566
+  
+  # Kinesis Stream configuration
+  stream:
+    name: test-stream
+    initialShardCount: 30
+  
+  # Application configuration
+  app:
+    name: kds-consumer-app
+    enableDynamicMaxLeases: true
+  
+  resources:
+    requests:
+      memory: "256Mi"
+      cpu: "100m"
+    limits:
+      memory: "512Mi"
+      cpu: "500m"
+  
+  # Health check configuration
+  livenessProbe:
+    enabled: true
+    httpGet:
+      path: /health
+      port: 8080
+    initialDelaySeconds: 30
+    periodSeconds: 10
+  
+  readinessProbe:
+    enabled: true
+    httpGet:
+      path: /ready
+      port: 8080
+    initialDelaySeconds: 10
+    periodSeconds: 5
+
+# RBAC configuration
+rbac:
+  create: true
+  serviceAccount:
+    name: kds-consumer
+
+# Initialization job configuration
+init:
+  enabled: true
+  image:
+    repository: amazon/aws-cli
+    tag: "2.13.0"
+  backoffLimit: 3
+  ttlSecondsAfterFinished: 3600  # Clean up after 1 hour
+
