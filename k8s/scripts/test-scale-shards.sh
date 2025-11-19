@@ -41,13 +41,6 @@ kubectl exec -n $NAMESPACE -it deployment/localstack -- sh -c "
     
     echo 'Stream update initiated. Waiting for it to complete...'
     sleep 5
-    
-    echo 'Checking new shard count...'
-    aws kinesis list-shards \
-        --stream-name test-stream \
-        --endpoint-url http://localhost:4566 \
-        --query 'length(Shards)' \
-        --output text
 "
 
 echo ""

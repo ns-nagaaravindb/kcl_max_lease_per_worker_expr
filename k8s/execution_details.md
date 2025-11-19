@@ -338,10 +338,7 @@ INFO  Successfully initialized dynamic max leases per worker  maxLeasesPerWorker
 
 ---
 
-## Testing Recommendations
 
-1. **Unit Tests**: Mock Kinesis and DynamoDB clients to test various scenarios
-2. **Integration Tests**: Use LocalStack to simulate real AWS services
 
 
 

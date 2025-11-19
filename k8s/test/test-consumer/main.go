@@ -84,7 +84,7 @@ func main() {
 
 	// Initialize lease manager (similar to the actual consumer code)
 	log.Println("Initializing KDS Lease Manager...")
-	leaseManager, err := NewTestLeaseManager(ctx, region, streamName, appName, workerID, endpoint)
+	leaseManager, err := NewKDSLeaseManager(ctx, region, streamName, appName, workerID, endpoint)
 	if err != nil {
 		log.Fatalf("Failed to create lease manager: %v", err)
 	}
