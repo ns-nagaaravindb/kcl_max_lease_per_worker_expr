@@ -1,0 +1,1 @@
+AWS_PROFILE=prod AWS_REGION=us-west-2 APPLICATION_NAME=xliu-test-stream5-us-west-2 ./aws_script/view-distribution.sh    
