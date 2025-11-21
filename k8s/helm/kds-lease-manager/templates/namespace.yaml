@@ -7,3 +7,4 @@ metadata:
     app.kubernetes.io/name: {{ include "kds-lease-manager.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
 
+

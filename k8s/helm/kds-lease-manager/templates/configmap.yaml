@@ -15,3 +15,4 @@ data:
   SHARD_COUNT: {{ .Values.consumer.stream.initialShardCount | quote }}
   ENABLE_DYNAMIC_MAX_LEASES: {{ .Values.consumer.app.enableDynamicMaxLeases | quote }}
 
+

@@ -1,0 +1,1367 @@
+{
+    "Items": [
+        {
+            "ShardID": {
+                "S": "shardId-000000000244"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:48:31.952969822Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000241"
+            },
+            "Checkpoint": {
+                "S": "49669132675215447755693507642885071523562377787060784962"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000219"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:37:09.756326095Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000216"
+            },
+            "Checkpoint": {
+                "S": "49669132657530956813254425196716196344429820984382459314"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:25.985854348Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000255"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000253"
+            },
+            "Checkpoint": {
+                "S": "49669132684737865955467386301791388552303523474370990066"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000265"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:18.16921986Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000263"
+            },
+            "Checkpoint": {
+                "S": "49669132693167547640506375913890504197180287819305717906"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000264"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:41:28.842191389Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000261"
+            },
+            "Checkpoint": {
+                "S": "49669132691004375356256865359531404673763758783131029634"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000288"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:53.629947097Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000286"
+            },
+            "Checkpoint": {
+                "S": "49669132710450625169377715210068291545262450181780017666"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000269"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:44:02.341198954Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000266"
+            },
+            "Checkpoint": {
+                "S": "49669132695040810237181933162656072620324112986925961426"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000137"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:11:28.201626147Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000135"
+            },
+            "Checkpoint": {
+                "S": "49669132594687456843805999422623592348876816004256106642"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000230"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:36:11.936186974Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000228"
+            },
+            "Checkpoint": {
+                "S": "49669132665269315397149540938390854150675002046355082850"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:41:20.76914865Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000292"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000289"
+            },
+            "Checkpoint": {
+                "S": "49669132712323887766049846071973495410876253118901785154"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000239"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:40.427833856Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000236"
+            },
+            "Checkpoint": {
+                "S": "49669132671179012874766071537153608118029305989851778802"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000215"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:18.831584283Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000213"
+            },
+            "Checkpoint": {
+                "S": "49669132655300882293400610682251643325542415967765663090"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000317"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:47.906394366Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000314"
+            },
+            "Checkpoint": {
+                "S": "49669132732862874093889937831946880035676288722485122002"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000156"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:33.520175392Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000153"
+            },
+            "Checkpoint": {
+                "S": "49669132608313212160101126980786874940829995684111321538"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000142"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:58.753269271Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000140"
+            },
+            "Checkpoint": {
+                "S": "49669132598367079801562803301748238785980752538428770530"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:10:35.078015106Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000180"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000178"
+            },
+            "Checkpoint": {
+                "S": "49669132627759461973224030752426622628390467689819147074"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:10:56.586389342Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000214"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000211"
+            },
+            "Checkpoint": {
+                "S": "49669132653494521932329423204118484516804253718188920162"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000152"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:43:26.435205854Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000150"
+            },
+            "Checkpoint": {
+                "S": "49669132606083137640249756564859351397024209664716310914"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000204"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:41:54.286735009Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000201"
+            },
+            "Checkpoint": {
+                "S": "49669132645421652170450128079425462011603170158171917506"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000151"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:21.520404619Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000148"
+            },
+            "Checkpoint": {
+                "S": "49669149390850515040311012661551773685766915366101977458"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:21.703026255Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000132"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000130"
+            },
+            "Checkpoint": {
+                "S": "49669132590651021962860303171863606884056421999755397186"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000220"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:08.172212429Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000218"
+            },
+            "Checkpoint": {
+                "S": "49669132659337317174341903520022102881657244317162409410"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000223"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:22.055267722Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000105"
+            },
+            "Checkpoint": {
+                "S": "49669139218677803163345519892110653142459788322096025074"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000209"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:41.774574109Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000206"
+            },
+            "Checkpoint": {
+                "S": "49669151633993271579710743800054789917050238617090264338"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:54.097833384Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000200"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000198"
+            },
+            "Checkpoint": {
+                "S": "49669132643191577650603330849951528728369952736766069890"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:48.304831994Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000167"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000165"
+            },
+            "Checkpoint": {
+                "S": "49669132617835630359875418687048044108413377922797144690"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:24.706762246Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000194"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000191"
+            },
+            "Checkpoint": {
+                "S": "49669132637705594331759171914342577503625527279801601058"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000199"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:34.056060237Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000196"
+            },
+            "Checkpoint": {
+                "S": "49669132641385217289521120074463929736631636756711607410"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000249"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:57.274340315Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000246"
+            },
+            "Checkpoint": {
+                "S": "49669132678895070713452387721177030896191740575341350802"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000322"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:13.106331418Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000319"
+            },
+            "Checkpoint": {
+                "S": "49669132736185685128474799064375613773180682981527786530"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000171"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:42:12.946519984Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000168"
+            },
+            "Checkpoint": {
+                "S": "49669132620065704879724339102509834925465381441630112434"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000146"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:41:20.098922193Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000143"
+            },
+            "Checkpoint": {
+                "S": "49669132600953966244585990311359288552891049087156095266"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:49.517165245Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000298"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000296"
+            },
+            "Checkpoint": {
+                "S": "49669132718880306854423074421910247191641977025149801122"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000157"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:49:03.121562929Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000155"
+            },
+            "Checkpoint": {
+                "S": "49669132610119572521183906976136320991501320016862644690"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:26.516312049Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000254"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000251"
+            },
+            "Checkpoint": {
+                "S": "49669132683288317517556362588126803739358328133066428386"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000270"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:10:11.507545383Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000268"
+            },
+            "Checkpoint": {
+                "S": "49669132696847170598274028199048633115409934832034124002"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000293"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:10.921662743Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000291"
+            },
+            "Checkpoint": {
+                "S": "49669132714843871973476597360855389643555092899427258962"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000282"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:45.586890989Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000279"
+            },
+            "Checkpoint": {
+                "S": "49669164480493648409674552499280600979946003684546056610"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000190"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:19.608393211Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000188"
+            },
+            "Checkpoint": {
+                "S": "49669132635475519811913727787320532559493095396825107426"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000225"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:25.937544971Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000106"
+            },
+            "Checkpoint": {
+                "S": "49669132660876068593039734991098043418230893340405009938"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000283"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:58.644121599Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000281"
+            },
+            "Checkpoint": {
+                "S": "49669137611507698195637965902670862934781464753760899506"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000321"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:29.15052411Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000126"
+            },
+            "Checkpoint": {
+                "S": "49669132734379324767395975534147973509331005595677889554"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000131"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:26.070657513Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000128"
+            },
+            "Checkpoint": {
+                "S": "49669132588844661601785731473052983221607359720013695026"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000234"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:19.816998847Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000231"
+            },
+            "Checkpoint": {
+                "S": "49669132667142577993824910838750707775539756227247476386"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000162"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:42:06.140559374Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000160"
+            },
+            "Checkpoint": {
+                "S": "49669132614156007402121399458228354300683172941890849314"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000250"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:24.938563973Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000248"
+            },
+            "Checkpoint": {
+                "S": "49669149388419733813671174748552792861222738888348405666"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:48:34.289575274Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000240"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000238"
+            },
+            "Checkpoint": {
+                "S": "49669132672628561312666108304167025634948639950104432386"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000176"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:51.189246342Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000173"
+            },
+            "Checkpoint": {
+                "S": "49669132623388515914306907197216027565291061060070017794"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000287"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:11:02.576125791Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000284"
+            },
+            "Checkpoint": {
+                "S": "49669132708644264808292116371633532583786822026345320946"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:42:10.852983132Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000303"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000301"
+            },
+            "Checkpoint": {
+                "S": "49669132722559929812168730055478777147030650343556911858"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000210"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:22.83377522Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000208"
+            },
+            "Checkpoint": {
+                "S": "49669132651621259335651827730867943753117058478962117922"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000259"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:33.31553367Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000256"
+            },
+            "Checkpoint": {
+                "S": "49669132686611128552145309704559236046468026936535814194"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:33.411385753Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000229"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000226"
+            },
+            "Checkpoint": {
+                "S": "49669132663462955036068593946894484746027063660561567314"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:27.94046859Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000184"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000181"
+            },
+            "Checkpoint": {
+                "S": "49669132629632724569898158446859008231621810204228717442"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000307"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:36:52.604351351Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000304"
+            },
+            "Checkpoint": {
+                "S": "49669132724433192408846503616887773820372297092872278834"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000127"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:21.637093762Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000085"
+            },
+            "Checkpoint": {
+                "S": "49669132587685022851463465437854262706319366926926612466"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:10:35.370045641Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000195"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000193"
+            },
+            "Checkpoint": {
+                "S": "49669132639511954692847748626584602578062116509777398834"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:48.002375027Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000278"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000276"
+            },
+            "Checkpoint": {
+                "S": "49669132702734567330676274905515269189409429503992664418"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:35.823456096Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000260"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000258"
+            },
+            "Checkpoint": {
+                "S": "49669132689131112759578384929370739190736633188895952962"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000297"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:48:33.319095689Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000294"
+            },
+            "Checkpoint": {
+                "S": "49669132716717134570161611536290039689023964331317924498"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000185"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:00.88995719Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000183"
+            },
+            "Checkpoint": {
+                "S": "49669132631795896854151516023291290111400885437190900626"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000318"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:31.38506522Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000316"
+            },
+            "Checkpoint": {
+                "S": "49669132734669234454975946971315739096956020000225760226"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000224"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:43.240612048Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000221"
+            },
+            "Checkpoint": {
+                "S": "49669132660853767847843505729751151991303978691875311106"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000312"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:01.303467767Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000309"
+            },
+            "Checkpoint": {
+                "S": "49669132728826439212960923705869930932175548699352503170"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000136"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:28.280354371Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000133"
+            },
+            "Checkpoint": {
+                "S": "49669147357401665602698073518896063237330477165081266306"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000245"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:53.177295559Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000243"
+            },
+            "Checkpoint": {
+                "S": "49669132677021808116776687689476021721820630419534516050"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000302"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:11:19.023216437Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000299"
+            },
+            "Checkpoint": {
+                "S": "49669132720753569451088746962389720675754238071038546658"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:36:14.290594513Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000141"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000138"
+            },
+            "Checkpoint": {
+                "S": "49669132596560719440475457368278769547596325401260984530"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000205"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:05:47.936476851Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000203"
+            },
+            "Checkpoint": {
+                "S": "49669132647228012531538967288849728625083159773328706770"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000308"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:36:27.891494129Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000306"
+            },
+            "Checkpoint": {
+                "S": "49669132725882740846756464736246276957483486751364223810"
+            }
+        },
+        {
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:43:06.320624888Z"
+            },
+            "ShardID": {
+                "S": "shardId-000000000172"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000170"
+            },
+            "Checkpoint": {
+                "S": "49669132621872065240803153738149173256233576674189380290"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000166"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:43:29.635558063Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000163"
+            },
+            "Checkpoint": {
+                "S": "49669132616029269998790285871931711614372247702245214818"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000313"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:16.315385247Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000311"
+            },
+            "Checkpoint": {
+                "S": "49669157736725999628813400366794842390439289399879406482"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000235"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:38.323726577Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000233"
+            },
+            "Checkpoint": {
+                "S": "49669132669305750278085546138193711306233229345657196210"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000189"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T06:44:11.902150444Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000186"
+            },
+            "Checkpoint": {
+                "S": "49669132634025971374003347013041771306830322916613163986"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000147"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:23.784796162Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000145"
+            },
+            "Checkpoint": {
+                "S": "49669132602403514682492813661991577000805746768349235506"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000179"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T14:10:44.025902373Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000175"
+            },
+            "Checkpoint": {
+                "S": "49669132625953101612141531759012512796828160310443510578"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000274"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-20T09:41:22.103686312Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000271"
+            },
+            "Checkpoint": {
+                "S": "49669132698363621271765356945271602744599412435469734178"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000277"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:48:52.442485385Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-0"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000273"
+            },
+            "Checkpoint": {
+                "S": "49669132700928206969605922805545613580332576037555671378"
+            }
+        },
+        {
+            "ShardID": {
+                "S": "shardId-000000000161"
+            },
+            "LeaseTimeout": {
+                "S": "2025-11-21T05:49:41.029182822Z"
+            },
+            "AssignedTo": {
+                "S": "msg-relayer-kds-events-sts-uk-lon3-1"
+            },
+            "ParentShardId": {
+                "S": "shardId-000000000158"
+            },
+            "Checkpoint": {
+                "S": "49669132612349647041031397650032542675822343901373532690"
+            }
+        }
+    ],
+    "Count": 80,
+    "ScannedCount": 80,
+    "ConsumedCapacity": null
+}

@@ -103,3 +103,4 @@ spec:
           periodSeconds: {{ .Values.consumer.readinessProbe.periodSeconds }}
         {{- end }}
 
+

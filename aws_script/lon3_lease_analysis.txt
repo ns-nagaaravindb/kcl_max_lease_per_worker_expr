@@ -1,0 +1,128 @@
+==========================================
+🔍 Lease Data Analysis - Deadlock Detection
+==========================================
+Analyzing file: lease-data-20251121-122740.json
+
+📊 Total Shards: 77
+
+📋 Shard Status Summary:
+   ├─ Active & Assigned: 50
+   ├─ Closed (SHARD_END): 0
+   └─ Unassigned: 27
+
+👥 Worker Distribution:
+   msg-relayer-kds-events-sts-uk-lon3-0: 23 leases
+   msg-relayer-kds-events-sts-uk-lon3-1: 27 leases
+
+==========================================
+🔍 Deadlock Analysis
+==========================================
+
+⚠️  WARNING: Shard shardId-000000000244 references missing parent: shardId-000000000241
+⚠️  WARNING: Shard shardId-000000000219 references missing parent: shardId-000000000216
+⚠️  WARNING: Shard shardId-000000000255 references missing parent: shardId-000000000253
+⚠️  WARNING: Shard shardId-000000000265 references missing parent: shardId-000000000263
+⚠️  WARNING: Shard shardId-000000000264 references missing parent: shardId-000000000261
+⚠️  WARNING: Shard shardId-000000000288 references missing parent: shardId-000000000286
+⚠️  WARNING: Shard shardId-000000000269 references missing parent: shardId-000000000266
+⚠️  WARNING: Shard shardId-000000000137 references missing parent: shardId-000000000135
+⚠️  WARNING: Shard shardId-000000000230 references missing parent: shardId-000000000228
+⚠️  WARNING: Shard shardId-000000000292 references missing parent: shardId-000000000289
+⚠️  WARNING: Shard shardId-000000000239 references missing parent: shardId-000000000236
+⚠️  WARNING: Shard shardId-000000000215 references missing parent: shardId-000000000213
+⚠️  WARNING: Shard shardId-000000000317 references missing parent: shardId-000000000314
+⚠️  WARNING: Shard shardId-000000000142 references missing parent: shardId-000000000140
+⚠️  WARNING: Shard shardId-000000000180 references missing parent: shardId-000000000178
+⚠️  WARNING: Shard shardId-000000000214 references missing parent: shardId-000000000211
+⚠️  WARNING: Shard shardId-000000000152 references missing parent: shardId-000000000150
+⚠️  WARNING: Shard shardId-000000000204 references missing parent: shardId-000000000201
+⚠️  WARNING: Shard shardId-000000000151 references missing parent: shardId-000000000148
+⚠️  WARNING: Shard shardId-000000000132 references missing parent: shardId-000000000130
+⚠️  WARNING: Shard shardId-000000000220 references missing parent: shardId-000000000218
+⚠️  WARNING: Shard shardId-000000000223 references missing parent: shardId-000000000105
+⚠️  WARNING: Shard shardId-000000000209 references missing parent: shardId-000000000206
+⚠️  WARNING: Shard shardId-000000000200 references missing parent: shardId-000000000198
+⚠️  WARNING: Shard shardId-000000000167 references missing parent: shardId-000000000165
+⚠️  WARNING: Shard shardId-000000000194 references missing parent: shardId-000000000191
+⚠️  WARNING: Shard shardId-000000000199 references missing parent: shardId-000000000196
+⚠️  WARNING: Shard shardId-000000000249 references missing parent: shardId-000000000246
+⚠️  WARNING: Shard shardId-000000000322 references missing parent: shardId-000000000319
+⚠️  WARNING: Shard shardId-000000000171 references missing parent: shardId-000000000168
+⚠️  WARNING: Shard shardId-000000000146 references missing parent: shardId-000000000143
+⚠️  WARNING: Shard shardId-000000000298 references missing parent: shardId-000000000296
+⚠️  WARNING: Shard shardId-000000000157 references missing parent: shardId-000000000155
+⚠️  WARNING: Shard shardId-000000000254 references missing parent: shardId-000000000251
+⚠️  WARNING: Shard shardId-000000000270 references missing parent: shardId-000000000268
+⚠️  WARNING: Shard shardId-000000000293 references missing parent: shardId-000000000291
+⚠️  WARNING: Shard shardId-000000000282 references missing parent: shardId-000000000279
+⚠️  WARNING: Shard shardId-000000000190 references missing parent: shardId-000000000188
+⚠️  WARNING: Shard shardId-000000000225 references missing parent: shardId-000000000106
+⚠️  WARNING: Shard shardId-000000000283 references missing parent: shardId-000000000281
+⚠️  WARNING: Shard shardId-000000000131 references missing parent: shardId-000000000128
+⚠️  WARNING: Shard shardId-000000000234 references missing parent: shardId-000000000231
+⚠️  WARNING: Shard shardId-000000000162 references missing parent: shardId-000000000160
+⚠️  WARNING: Shard shardId-000000000250 references missing parent: shardId-000000000248
+⚠️  WARNING: Shard shardId-000000000240 references missing parent: shardId-000000000238
+⚠️  WARNING: Shard shardId-000000000176 references missing parent: shardId-000000000173
+⚠️  WARNING: Shard shardId-000000000287 references missing parent: shardId-000000000284
+⚠️  WARNING: Shard shardId-000000000303 references missing parent: shardId-000000000301
+⚠️  WARNING: Shard shardId-000000000210 references missing parent: shardId-000000000208
+⚠️  WARNING: Shard shardId-000000000259 references missing parent: shardId-000000000256
+⚠️  WARNING: Shard shardId-000000000229 references missing parent: shardId-000000000226
+⚠️  WARNING: Shard shardId-000000000184 references missing parent: shardId-000000000181
+⚠️  WARNING: Shard shardId-000000000307 references missing parent: shardId-000000000304
+⚠️  WARNING: Shard shardId-000000000127 references missing parent: shardId-000000000085
+⚠️  WARNING: Shard shardId-000000000195 references missing parent: shardId-000000000193
+⚠️  WARNING: Shard shardId-000000000278 references missing parent: shardId-000000000276
+⚠️  WARNING: Shard shardId-000000000260 references missing parent: shardId-000000000258
+⚠️  WARNING: Shard shardId-000000000297 references missing parent: shardId-000000000294
+⚠️  WARNING: Shard shardId-000000000185 references missing parent: shardId-000000000183
+⚠️  WARNING: Shard shardId-000000000318 references missing parent: shardId-000000000316
+⚠️  WARNING: Shard shardId-000000000224 references missing parent: shardId-000000000221
+⚠️  WARNING: Shard shardId-000000000312 references missing parent: shardId-000000000309
+⚠️  WARNING: Shard shardId-000000000136 references missing parent: shardId-000000000133
+⚠️  WARNING: Shard shardId-000000000245 references missing parent: shardId-000000000243
+⚠️  WARNING: Shard shardId-000000000302 references missing parent: shardId-000000000299
+⚠️  WARNING: Shard shardId-000000000141 references missing parent: shardId-000000000138
+⚠️  WARNING: Shard shardId-000000000205 references missing parent: shardId-000000000203
+⚠️  WARNING: Shard shardId-000000000308 references missing parent: shardId-000000000306
+⚠️  WARNING: Shard shardId-000000000172 references missing parent: shardId-000000000170
+⚠️  WARNING: Shard shardId-000000000166 references missing parent: shardId-000000000163
+⚠️  WARNING: Shard shardId-000000000235 references missing parent: shardId-000000000233
+⚠️  WARNING: Shard shardId-000000000189 references missing parent: shardId-000000000186
+⚠️  WARNING: Shard shardId-000000000147 references missing parent: shardId-000000000145
+⚠️  WARNING: Shard shardId-000000000179 references missing parent: shardId-000000000175
+⚠️  WARNING: Shard shardId-000000000274 references missing parent: shardId-000000000271
+⚠️  WARNING: Shard shardId-000000000277 references missing parent: shardId-000000000273
+⚠️  WARNING: Shard shardId-000000000161 references missing parent: shardId-000000000158
+==========================================
+⏰ Lease Timeout Analysis
+==========================================
+
+✅ No stale leases detected (all leases are recent)
+
+==========================================
+📊 Analysis Summary
+==========================================
+
+Total Shards Analyzed: 77
+├─ Active & Processing: 50
+├─ Closed (SHARD_END): 0
+└─ Unassigned: 27
+
+Blocking Issues:
+├─ Shards blocked by parent: 0
+├─ Potential deadlocks: 0
+└─ Parent-child issues: 77
+
+Lease Health:
+├─ Stale leases (>1h old): 0
+└─ Very stale (>24h old): 0
+
+✅ No issues detected!
+
+💡 System appears healthy:
+   - All shards properly assigned
+   - No deadlocks detected
+   - Lease timeouts are current
+
